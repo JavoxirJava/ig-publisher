@@ -1,5 +1,9 @@
 # ig-publisher
 
+![ig-publisher: post and schedule Instagram Reels, photos, carousels and stories](.github/assets/social-preview.png)
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Node.js ≥ 24](https://img.shields.io/badge/node-%E2%89%A5%2024-339933?logo=node.js&logoColor=white)](https://nodejs.org) [![MCP server](https://img.shields.io/badge/MCP-server-8134af)](#mcp-server) [![Release](https://img.shields.io/github/v/release/JavoxirJava/ig-publisher)](https://github.com/JavoxirJava/ig-publisher/releases)
+
 **English** · [O‘zbekcha](README.uz.md)
 
 A local, self-hosted tool that publishes Reels, photos, carousels and stories to an Instagram
