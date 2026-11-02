@@ -1,0 +1,4 @@
+#!/bin/sh
+# ig-publisher CLI launcher (works through symlinks, e.g. ~/.local/bin/ig)
+DIR="$(dirname "$(readlink -f "$0")")/.."
+exec node --disable-warning=ExperimentalWarning "$DIR/src/cli.ts" "$@"

@@ -1,0 +1,16 @@
+node_modules/
+
+# Local state: tokens, queue, history (never commit)
+data/
+profiles/
+*.sqlite
+*.sqlite-*
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Backups
+*.bak
+*.bak-*

@@ -1,0 +1,40 @@
+{
+  "name": "ig-publisher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Instagram (Instagram Login API) publisher: CLI, queue/scheduler, Telegram notify, MCP server",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavoxirJava/ig-publisher.git"
+  },
+  "keywords": [
+    "instagram",
+    "instagram-api",
+    "reels",
+    "scheduler",
+    "mcp",
+    "cli"
+  ],
+  "type": "module",
+  "bin": {
+    "ig": "bin/ig"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "ig": "node --disable-warning=ExperimentalWarning src/cli.ts",
+    "mcp": "node --disable-warning=ExperimentalWarning src/mcp.ts",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
